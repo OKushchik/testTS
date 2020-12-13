@@ -11,7 +11,6 @@ export class Day extends Component {
     this.labelName = new Component(this.component, "span", "outputDay");
     this.labelNumber = new Component(this.component, "span", "outputDate");
   }
-
   render() {
     super.render();
     this.createCurrentLabel();
